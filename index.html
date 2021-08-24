@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unholy Waste</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="maincontainer">
+    <!--Dynamic background element-->
+    <div id="background">
+        <img id="backgroundImage"></img>
+    </div>
+    <!--Contents of the webpage-->
+    <div id="contents">
+        <div id="header">
+
+            <h1>Things By JLR</h1>
+            <!--elements that are styled as a standard social media link section-->
+            <div class="socialmedialine">
+
+                <a id="socialMediaMessage">Find Me:</a>
+                <div class="socialmediabuttons">
+
+                    <button class="socialmediabutton" id="linkedInButton"
+                        onclick="window.open('https://www.linkedin.com/in/jordy-larrea-rodriguez-373a4418b/','_blank');">
+                        in</button>
+                    <button class="socialmediabutton" id="githubButton"
+                        onclick="window.open('https://github.com/CasuallyAlive','_blank');"></button>
+                </div>
+            </div>
+        </div>
+
+        <!--tab element containing the tab buttons of different sub-pages of the website-->
+        <div class="tab">
+            <!-- Default Tab Link -->
+            <button class="tablinks" onclick="openInformationTab(event, 'About_Me_TC')" id="defaultOpen">About
+                Me</button>
+            <button class="tablinks" onclick="openInformationTab(event, 'Hobbies_TC')">Hobbies</button>
+            <button class="tablinks" onclick="openInformationTab(event, 'Projects_TC')">Projects</button>
+            <button class="tablinks" onclick="openInformationTab(event, 'Contact_TC')">Contact</button>
+        </div>
+        <!--Tab Contents-->
+        <div id="About_Me_TC" class="tabcontent">
+            <h3>About Me</h3>
+            <!--Photo of myself and description of myself-->
+            <div class="ME">
+                <img class="selfportrait" id="selfPortrait" src="Resources/Images/PortraitPics/headshot_2021.jpg"></img>
+                <div id="About_Me" class="siteparagraphs"></div>
+            </div>
+            <!--Button to download Resume-->
+            <div class="resumebutton" id="resumeButton">
+                <a class="resumelink" href="Resources/Documents/Resume_JL_current.pdf" target="_blank" download>Download
+                    Jordy's Resume</a>
+            </div>
+        </div>
+
+        <div id="Hobbies_TC" class="tabcontent">
+            <h3>Hobbies</h3>
+            <p>COMING SOON!</p>
+        </div>
+
+        <div id="Projects_TC" class="tabcontent">
+            <h3>Projects</h3>
+            <p>COMING SOON!</p>
+        </div>
+
+        <div id="Contact_TC" class="tabcontent">
+            <h3>Contact Me</h3>
+            <p id="contact">Email:<a href="mailto: Jordy.larrearodriguez@gmail.com" target="_blank">
+                    Jordy.larrearodriguez@gmail.com</a><br>Phone: (801)
+                645-0788 </p>
+        </div>
+    </div>
+    <!-- JQuery File-->
+    <script src="Resources/Libraries/jquery-3.6.0.js"></script>
+
+    <!-- JS script main file-->
+    <script src="app.js"></script>
+    <noscript>Enable JavaScript to view the full site.</noscript>
+
+
+</body>
+
+</html>
