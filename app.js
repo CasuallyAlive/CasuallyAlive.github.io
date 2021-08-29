@@ -35,7 +35,7 @@ function setUpParagraphText() {
         " I'm a third year student at the University of Utah pursuing a Bachelor's of Science in Computer Engineering and a minor in Physics." +
         " My background is inherently in learning not just as it pertains to tech and engineering but other less markitable topics such as origami and the keeping of exotic pets among other things." +
         " I'm highly interested in both embedded software engineering and backend software engineering roles as they best suit my educational background and practical proficiencies." +
-        " I hold immense interest in Machine Learning algorithms and its powerful applications and hope to work on integrating such high level algorithms in hardware restricted embedded systems." +
+        " I hold immense interest in Machine Learning algorithms and there powerful applications and hope to work on integrating such high level algorithms in hardware restricted embedded systems." +
         " Thank you for visiting my website and feel free to take a gander at the tabbed sections for a more concise picture of my qualifications and so forth.");
 }
 /**
