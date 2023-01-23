@@ -132,7 +132,7 @@ h1{
 /* Style for the self-portrait element*/
 #selfPortrait {
     border-radius: 100px;
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
 }
 /* flex container for the self-portrait image */
