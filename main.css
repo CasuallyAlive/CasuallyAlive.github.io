@@ -2,7 +2,7 @@
 
 body, html{
     margin:0;
-    /* min-width: 1200px; */
+    min-zoom: 1.0;
 }
 /* Background image properties for the body of the webpage*/
 .maincontainer{
@@ -96,7 +96,7 @@ h1{
 .tabcontent{
     display: none;
     background-color: rgba(255,255,255,.8);
-    padding: .6% 15%;
+    padding: .6% 5% .6% 5%;
     border: 1px solid #ccc;
     border-top: none;
     border-radius: 0px 0px 20px 20px;
@@ -105,40 +105,67 @@ h1{
 
 /* Style for the download resume button*/
 .resumelink{
-    display: inline-block;
-    background-color: #333;
-    color: yellow;
+    border: none;
+    color: #333;
+    outline: none;
+    word-wrap: normal;
+    background-color: rgba(255,255,255,.8);
     cursor:pointer;
-    padding: .9% 1.8%;
+    padding: 2% 2%;
 }
 
 /* Fades out the download resume button upon hover*/
 .resumelink:hover{
-    display: inline-block;
-    background-color: yellow;
-    color: #333;
-    padding: 1% 2%;
+    background-color: #ddd;
+    padding: 4% 4%;
+    color: inherit;
 }
 /* Style for the resume-button element*/
 #resumeButton{
-    text-align: center;
+    width: 100%;
 }
 
-#About_Me{
-    align-self: center;
-    padding-left: 100px;
+#resumeButtonDiv{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+/* flex container for the self-portrait image / button and About Me*/
+#ME{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    display:inline-flex;
+    gap: 5%;
+    width: fit-content;
+    height: max-content;
+    overflow: hidden;
 }
 
 /* Style for the self-portrait element*/
 #selfPortrait {
-    border-radius: 100px;
-    max-width: 40%;
-    height: auto;
+    border-radius: 5% 5% 5% 5%;
+    width: 100%;
+    height: 100%;
 }
-/* flex container for the self-portrait image */
-.ME{
+
+#jlr_info{
+    flex: 1;
+    gap: 5%;
+    display: inline-flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+#About_Me{
+    flex: 2;
+    padding-right: 5%;
     display: flex;
-    padding-bottom: 20px;
+    word-wrap: break-word;
+    max-width: fit-content;
+    height: fit-content;
 }
 
 /* style for the social media flex container*/

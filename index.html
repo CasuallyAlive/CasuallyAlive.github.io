@@ -35,8 +35,7 @@
         <!--tab element containing the tab buttons of different sub-pages of the website-->
         <div class="tab">
             <!-- Default Tab Link -->
-            <button class="tablinks" onclick="openInformationTab(event, 'About_Me_TC')" id="defaultOpen">About
-                Me</button>
+            <button class="tablinks" onclick="openInformationTab(event, 'About_Me_TC')" id="defaultOpen">About Me</button>
             <button class="tablinks" onclick="openInformationTab(event, 'Hobbies_TC')">Hobbies</button>
             <button class="tablinks" onclick="openInformationTab(event, 'Projects_TC')">Projects</button>
             <button class="tablinks" onclick="openInformationTab(event, 'Contact_TC')">Contact</button>
@@ -45,14 +44,18 @@
         <div id="About_Me_TC" class="tabcontent">
             <h3>About Me</h3>
             <!--Photo of myself and description of myself-->
-            <div class="ME">
-                <img class="selfportrait" id="selfPortrait" src="Resources/Images/PortraitPics/touching_grass.jpg"></img>
+            <div id="ME">
+                <div id="jlr_info">
+                    <img id="selfPortrait" src="Resources/Images/PortraitPics/touching_grass.jpg"></img>
+                    
+                    <!--Button to download Resume-->
+                    <div id="resumeButtonDiv" >
+                        <div class="resumebutton" id="resumeButton">
+                            <a class="resumelink" href="Resources/Documents/Resume_JL_current.pdf" target="_blank" download>Download Jordy's Resume</a>
+                        </div>
+                    </div>
+                </div>
                 <div id="About_Me" class="siteparagraphs"></div>
-            </div>
-            <!--Button to download Resume-->
-            <div class="resumebutton" id="resumeButton">
-                <a class="resumelink" href="Resources/Documents/Resume_JL_current.pdf" target="_blank" download>Download
-                    Jordy's Resume</a>
             </div>
         </div>
 
