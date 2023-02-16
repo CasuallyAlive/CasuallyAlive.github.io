@@ -149,7 +149,7 @@ h1{
     gap: 5%;
     display: inline-flex;
     flex-direction: column;
-    width: max-content;
+    width: 100%;
 }
 /* Style for the self-portrait element*/
 #selfPortrait {
