@@ -128,8 +128,9 @@ h1{
 #resumeButtonDiv{
     display: flex;
     text-align: center;
+    flex: 2;
     width: 100%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 /* flex container for the self-portrait image / button and About Me*/
 #ME{
@@ -154,6 +155,8 @@ h1{
 #selfPortrait {
     border-radius: 5% 5% 5% 5%;
     width: 100%;
+    flex: 1;
+    padding-bottom: 5%;
     height: 100%;
 }
 /* About Me paragraph styling */
