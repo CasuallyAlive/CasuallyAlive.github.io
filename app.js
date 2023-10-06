@@ -32,10 +32,11 @@ setBackground();
  */
 function setUpParagraphText() {
     About_Me.append("Hi welcome to my personal website where one can find some of my \"productive\" personal pursuits and any relevant professional details of myself." +
-        " I'm a Senior at the University of Utah pursuing a BS/MS in Computer Engineering (Neuro-robotics) and completing pre-medical course-work." +
-        " I hold professional ambitions in medicine and remaining in academia: the human brain has always fascinated me and I intend on working towards a Neurology specialty." +
-        " I'm an avid nature and animal lover, hence, the many scenic pictures on this site's background. My current research is in bio-mechanics and employing robots for cadaveric simulations in bio-mechanics studies with pattern recognition software." +
-        " Thank you for visiting my website and feel free to take a gander at the tabbed sections for a more concise picture of, well, me.");
+        " I'm a Senior at the University of Utah pursuing a BS/MS in Electrical and Computer Engineering with Robotics Emphasis." +
+        " I hold professional ambitions in medical/human-centered robotics: specifically, I'm quite interested in brain-computer interfaces." +
+        " I'm an avid nature and animal lover, hence, the many scenic pictures on this site's background. My current research is in applying optimal control" + 
+        " to drive a gait simulator for foot/ankle bio-mechanics based studies. Anyway, " +
+        " thank you for visiting my website and feel free to take a gander at the tabbed sections for a more concise picture of, well, me.");
 }
 /**
  * Handler for the tab clicked event. Opens up the tab that corresponds to the clicked tab. 
